@@ -103,7 +103,7 @@ const EditPostPage = () => {
             {currentImage && (
               <div className="current-image">
                 <img 
-                  src={`http://localhost:5000/uploads/${currentImage}`} 
+                  src={currentImage ? `/uploads/${currentImage}` : ''} 
                   alt="Current cover" 
                 />
               </div>
