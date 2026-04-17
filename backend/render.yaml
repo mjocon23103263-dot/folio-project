@@ -1,4 +1,3 @@
 build:
-  cmd: npm install
-  workdir: backend
+  cmd: cd backend && npm install
 start: node server.js
