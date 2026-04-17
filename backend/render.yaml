@@ -1,4 +1,4 @@
 build:
-  cmd: npm install
-  workdir: backend
+  command: npm install
+  workdir: /app/backend
 start: npm start
