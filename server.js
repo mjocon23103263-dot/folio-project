@@ -24,6 +24,14 @@ app.use('/api/admin', require('./routes/admin.routes'));
 // Static files
 app.use('/uploads', express.static(path.join(__dirname, 'uploads')));
 
+// Serve frontend static files from frontend/build
+app.use(express.static(path.join(__dirname, 'frontend/build')));
+
+// Serve index.html for all non-API routes (SPA support)
+app.get(/^(?!\/api\/).*/, (req, res) => {
+  res.sendFile(path.join(__dirname, 'frontend/build/index.html'));
+});
+
 // Health check
 app.get('/api/health', (req, res) => {
   res.json({ 
