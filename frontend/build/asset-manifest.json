@@ -1,13 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.e0e77ca2.css",
-    "main.js": "/static/js/main.3c5edac4.js",
-    "index.html": "/index.html",
-    "main.e0e77ca2.css.map": "/static/css/main.e0e77ca2.css.map",
-    "main.3c5edac4.js.map": "/static/js/main.3c5edac4.js.map"
+    "main.css": "/folio-project/static/css/main.83ae7f3e.css",
+    "main.js": "/folio-project/static/js/main.7b4b3540.js",
+    "static/media/about-cycling2.jpg": "/folio-project/static/media/about-cycling2.fec8f8965da9e6c81018.jpg",
+    "static/media/hero-cycling.jpg": "/folio-project/static/media/hero-cycling.b367c16c8516e8abdd5e.jpg",
+    "static/media/about-cycling1.jpg": "/folio-project/static/media/about-cycling1.2bcef72ee6b1910c8a01.jpg",
+    "index.html": "/folio-project/index.html",
+    "main.83ae7f3e.css.map": "/folio-project/static/css/main.83ae7f3e.css.map",
+    "main.7b4b3540.js.map": "/folio-project/static/js/main.7b4b3540.js.map"
   },
   "entrypoints": [
-    "static/css/main.e0e77ca2.css",
-    "static/js/main.3c5edac4.js"
+    "static/css/main.83ae7f3e.css",
+    "static/js/main.7b4b3540.js"
   ]
 }
